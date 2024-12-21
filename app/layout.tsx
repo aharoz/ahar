@@ -11,12 +11,10 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
-export function generateMetadata({ params: { locale } }: { params: { locale: Locale } }): Metadata {
-  return {
-    title: siteConfig[locale].title,
-    description: siteConfig[locale].description,
-  }
-}
+export const metadata: Metadata = {
+  title: 'Ahmet Arif',
+  description: 'Diplomat & Uluslararası İlişkiler Uzmanı',
+};
 
 async function getMessages(locale: string) {
   try {
@@ -33,15 +31,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body>
+      <body className={inter.className}>
+        <Header />
         {children}
+        <Footer />
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
-}
-
-export const metadata = {
-  title: 'Ahmet Arif',
-  description: 'Portfolio Website',
-}; 
+} 
