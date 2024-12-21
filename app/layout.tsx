@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import { siteConfig, Locale } from './config'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,7 +33,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="tr">
-      <body>{children}</body>
+      <body>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
