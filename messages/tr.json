@@ -1,0 +1,86 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
+  "home": {
+    "hero": {
+      "title": "Uluslararası İlişkiler ve Diplomasi",
+      "subtitle": "Küresel perspektiften analiz ve değerlendirmeler"
+    },
+    "about": {
+      "title": "Hakkımda",
+      "description": "Uluslararası ilişkiler ve diplomasi alanında uzmanlaşmış bir akademisyen olarak, küresel politika ve diplomatik ilişkiler üzerine çalışmalar yürütüyorum."
+    },
+    "blog": {
+      "title": "Son Yazılar",
+      "readMore": "Devamını Oku"
+    }
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description": "Uluslararası ilişkiler ve diplomasi alanındaki deneyimlerim ve çalışmalarım hakkında detaylı bilgi.",
+    "education": {
+      "title": "Eğitim",
+      "items": [
+        {
+          "degree": "Doktora",
+          "field": "Uluslararası İlişkiler",
+          "school": "Örnek Üniversitesi",
+          "year": "2020"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Deneyim",
+      "items": [
+        {
+          "position": "Akademisyen",
+          "organization": "Örnek Üniversitesi",
+          "period": "2020 - Günümüz"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Devamını Oku",
+    "categories": "Kategoriler",
+    "tags": "Etiketler",
+    "search": "Ara",
+    "noResults": "Sonuç bulunamadı."
+  },
+  "contact": {
+    "title": "İletişim",
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres"
+    },
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "weekdays": "Hafta İçi",
+      "weekends": "Hafta Sonu",
+      "closed": "Kapalı"
+    },
+    "form": {
+      "name": "Adınız",
+      "email": "E-posta Adresiniz",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi.",
+      "error": "Mesajınız gönderilemedi. Lütfen daha sonra tekrar deneyin."
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "social": {
+      "follow": "Takip Et"
+    }
+  }
+} 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Background -->
+  <rect width="200" height="50" fill="none"/>
+  
+  <!-- Diplomat Text -->
+  <text x="60" y="35" font-family="Playfair Display" font-size="28" font-weight="bold" fill="#0ea5e9">
+    Diplomat
+  </text>
+  
+  <!-- Globe Icon -->
+  <circle cx="30" cy="25" r="20" stroke="#0ea5e9" stroke-width="2" fill="none"/>
+  <path d="M10 25h40" stroke="#0ea5e9" stroke-width="1.5"/>
+  <path d="M30 5v40" stroke="#0ea5e9" stroke-width="1.5"/>
+  <path d="M30 25c0 11.046-8.954 20-20 20" stroke="#0ea5e9" stroke-width="1.5" fill="none"/>
+  <path d="M30 25c0-11.046 8.954-20 20-20" stroke="#0ea5e9" stroke-width="1.5" fill="none"/>
+</svg> 

@@ -1,0 +1,122 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "blog": "Blog"
+  },
+  "hero": {
+    "title": "Diplomacy and International Relations",
+    "subtitle": "Professional experience and expertise in global diplomacy",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "Diplomatic Mission",
+    "description": "I work to build bridges in international relations and strengthen intercultural dialogue. With my diplomatic experience and global vision, I focus on developing international cooperation.",
+    "cta": "View My Works"
+  },
+  "expertise": {
+    "title": "Areas of Expertise",
+    "areas": {
+      "international": {
+        "title": "International Relations",
+        "description": "Development and management of global diplomatic relations"
+      },
+      "cultural": {
+        "title": "Cultural Diplomacy",
+        "description": "Strengthening intercultural dialogue and cooperation"
+      },
+      "strategic": {
+        "title": "Strategic Consulting",
+        "description": "International policy and strategy development"
+      }
+    }
+  },
+  "gallery": {
+    "title": "Media Gallery",
+    "description": "Highlights from my diplomatic missions and events",
+    "categories": {
+      "all": "All",
+      "diplomatic": "Diplomatic",
+      "cultural": "Cultural",
+      "conference": "Conference"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Articles on diplomacy, international relations, and cultural interaction",
+    "readMore": "Read More",
+    "minuteRead": "min read",
+    "noResults": "No posts found matching your search criteria.",
+    "search": {
+      "placeholder": "Search blog posts..."
+    },
+    "filters": "Filters",
+    "categories": {
+      "title": "Categories",
+      "all": "All",
+      "diplomatic": "Diplomacy",
+      "cultural": "Culture",
+      "education": "Education",
+      "strategy": "Strategy"
+    },
+    "sort": {
+      "title": "Sort By",
+      "latest": "Latest",
+      "oldest": "Oldest",
+      "popular": "Popular"
+    },
+    "relatedPosts": "Related Posts",
+    "comments": "Comments",
+    "commentForm": {
+      "title": "Leave a Comment",
+      "name": "Name",
+      "email": "Email",
+      "comment": "Your Comment",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "success": "Your comment has been submitted successfully.",
+      "error": "An error occurred while submitting your comment. Please try again.",
+      "required": "This field is required",
+      "emailInvalid": "Please enter a valid email address"
+    }
+  },
+  "social": {
+    "share": "Share",
+    "shareOn": "Share on",
+    "followUs": "Follow us",
+    "followOn": "Follow on"
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "hours": {
+      "title": "Working Hours",
+      "weekdays": "Weekdays",
+      "weekends": "Weekends",
+      "closed": "Closed"
+    }
+  },
+  "footer": {
+    "description": "I provide professional services in international relations and diplomacy. Working with a global vision while preserving local values.",
+    "quickLinks": "Quick Links",
+    "rights": "All rights reserved."
+  }
+} 

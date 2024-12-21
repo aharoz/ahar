@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "result": [
+    {
+      "id": "A-1",
+      "type": "A",
+      "name": "@",
+      "content": "76.76.21.21",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "id": "CNAME-1",
+      "type": "CNAME",
+      "name": "www",
+      "content": "ahmetarif.com.tr",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "id": "CNAME-2",
+      "type": "CNAME",
+      "name": "api",
+      "content": "cname.vercel-dns.com",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "id": "MX-1",
+      "type": "MX",
+      "name": "@",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 61,
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "id": "MX-2",
+      "type": "MX",
+      "name": "@",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 73,
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "id": "MX-3",
+      "type": "MX",
+      "name": "@",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 46,
+      "proxied": false,
+      "ttl": 1
+    },
+    {
+      "id": "TXT-1",
+      "type": "TXT",
+      "name": "@",
+      "content": "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      "proxied": false,
+      "ttl": 1
+    }
+  ]
+} 

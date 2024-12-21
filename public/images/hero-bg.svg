@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Pattern -->
+  <defs>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main Background -->
+  <rect width="1920" height="1080" fill="#0c4a6e"/>
+  
+  <!-- Grid Pattern -->
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Abstract Shapes -->
+  <circle cx="200" cy="200" r="300" fill="#0ea5e9" opacity="0.1"/>
+  <circle cx="1720" cy="900" r="400" fill="#0ea5e9" opacity="0.1"/>
+  
+  <!-- World Map Outline (Simplified) -->
+  <path d="M960 300 C460 300 100 500 100 640 C100 780 460 980 960 980 C1460 980 1820 780 1820 640 C1820 500 1460 300 960 300" 
+        stroke="#0ea5e9" stroke-width="2" opacity="0.2" fill="none"/>
+  
+  <!-- Additional Decorative Lines -->
+  <path d="M0 400 Q 480 600 960 400 Q 1440 200 1920 400" stroke="#0ea5e9" stroke-width="1" opacity="0.1" fill="none"/>
+  <path d="M0 600 Q 480 800 960 600 Q 1440 400 1920 600" stroke="#0ea5e9" stroke-width="1" opacity="0.1" fill="none"/>
+</svg> 

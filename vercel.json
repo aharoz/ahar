@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1",
+      "headers": {
+        "x-vercel-protection": "enabled"
+      }
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_URL": "https://api.ahmetarif.com.tr",
+    "NEXT_PUBLIC_SITE_URL": "https://ahmetarif.com.tr"
+  },
+  "regions": ["fra1"],
+  "public": false
+} 

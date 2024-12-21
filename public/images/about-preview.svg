@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="400" cy="300" r="200" fill="#0ea5e9" opacity="0.1"/>
+  <circle cx="600" cy="100" r="100" fill="#0ea5e9" opacity="0.05"/>
+  <circle cx="200" cy="500" r="150" fill="#0ea5e9" opacity="0.05"/>
+  
+  <!-- Abstract Lines -->
+  <path d="M100 200 Q 400 0 700 200" stroke="#0ea5e9" stroke-width="2" opacity="0.2" fill="none"/>
+  <path d="M100 400 Q 400 600 700 400" stroke="#0ea5e9" stroke-width="2" opacity="0.2" fill="none"/>
+  
+  <!-- Grid Pattern -->
+  <defs>
+    <pattern id="smallGrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#0ea5e9" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Apply Grid -->
+  <rect width="800" height="600" fill="url(#smallGrid)"/>
+  
+  <!-- Diplomat Icon -->
+  <circle cx="400" cy="300" r="80" stroke="#0ea5e9" stroke-width="3" fill="none"/>
+  <path d="M320 300h160" stroke="#0ea5e9" stroke-width="2"/>
+  <path d="M400 220v160" stroke="#0ea5e9" stroke-width="2"/>
+  <path d="M400 300c0 44.183-35.817 80-80 80" stroke="#0ea5e9" stroke-width="2" fill="none"/>
+  <path d="M400 300c0-44.183 35.817-80 80-80" stroke="#0ea5e9" stroke-width="2" fill="none"/>
+</svg> 

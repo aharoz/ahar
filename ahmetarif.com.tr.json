@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "result": [
+    {
+      "id": "A-1",
+      "type": "A",
+      "name": "@",
+      "content": "76.76.21.21",
+      "proxied": true,
+      "ttl": 60
+    },
+    {
+      "id": "CNAME-1",
+      "type": "CNAME",
+      "name": "*",
+      "content": "cname.vercel-dns.com",
+      "proxied": true,
+      "ttl": 60
+    },
+    {
+      "id": "CAA-1",
+      "type": "CAA",
+      "name": "@",
+      "content": "0 issue \"letsencrypt.org\"",
+      "proxied": false,
+      "ttl": 60
+    }
+  ]
+} 
