@@ -19,4 +19,28 @@ export const siteConfig = {
     title: 'Diplomat Portfolio',
     description: 'Professional diplomat portfolio website'
   }
-} 
+}
+
+export const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
+export const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN;
+
+export const getStrapiURL = (path = '') => {
+    return `${STRAPI_URL}${path}`;
+};
+
+export const fetchAPI = async (path: string) => {
+    const requestUrl = getStrapiURL(path);
+    const response = await fetch(requestUrl, {
+        headers: {
+            'Authorization': `Bearer ${STRAPI_API_TOKEN}`,
+            'Content-Type': 'application/json',
+        },
+    });
+    
+    if (!response.ok) {
+        throw new Error(`Strapi API error: ${response.statusText}`);
+    }
+    
+    const data = await response.json();
+    return data;
+}; 

@@ -25,27 +25,19 @@ async function getMessages(locale: string) {
   }
 }
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
-  params: { locale }
 }: {
-  children: React.ReactNode
-  params: { locale: string }
+  children: React.ReactNode;
 }) {
-  const messages = await getMessages(locale)
-
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
-        <NextIntlClientProvider messages={messages} locale={locale}>
-          <Header />
-          <main className="min-h-screen pt-16">
-            {children}
-          </main>
-          <Footer />
-          <Analytics />
-        </NextIntlClientProvider>
-      </body>
+    <html lang="tr">
+      <body>{children}</body>
     </html>
-  )
-} 
+  );
+}
+
+export const metadata = {
+  title: 'Ahmet Arif',
+  description: 'Portfolio Website',
+}; 

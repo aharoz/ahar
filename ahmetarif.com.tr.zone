@@ -1,38 +1,27 @@
 $ORIGIN ahmetarif.com.tr.
-$TTL 3600
+$TTL 60
 
 ; SOA Record
-@       IN      SOA     ns1.cloudflare.com. dns.cloudflare.com. (
-                        2024010101  ; Serial
+@       IN      SOA     ns1.vercel-dns.com. hostmaster.vercel.com. (
+                        2024010201  ; Serial
                         7200        ; Refresh
                         3600        ; Retry
                         1209600     ; Expire
-                        3600        ; Minimum TTL
+                        60          ; Minimum TTL
 )
 
 ; Nameserver Records
-@       IN      NS      ns1.cloudflare.com.
-@       IN      NS      ns2.cloudflare.com.
+@       IN      NS      ns1.vercel-dns.com.
+@       IN      NS      ns2.vercel-dns.com.
 
-; A Records
-@       IN      A       76.76.21.21        ; Vercel IP
+; A Records for Root Domain
+@       IN      A       76.76.21.21
 
-; CNAME Records
-www     IN      CNAME   ahmetarif.com.tr.  ; www subdomain
-api     IN      CNAME   cname.vercel-dns.com. ; API subdomain
+; CNAME Records for Wildcard Subdomains
+*       IN      CNAME   cname.vercel-dns.com.
 
-; MX Records for Email
-@       IN      MX      61  route1.mx.cloudflare.net.
-@       IN      MX      73  route2.mx.cloudflare.net.
-@       IN      MX      46  route3.mx.cloudflare.net.
-
-; TXT Records
-@       IN      TXT     "v=spf1 include:_spf.mx.cloudflare.net ~all"
-
-; Vercel Domain Verification
-_vercel IN      TXT     "vc-validation=1234567890"
-
-; CAA Records
+; CAA Records for SSL
 @       IN      CAA     0 issue "letsencrypt.org"
-@       IN      CAA     0 issue "digicert.com"
-@       IN      CAA     0 issuewild ";"
+
+; Additional Records for www subdomain
+www     IN      CNAME   cname.vercel-dns.com.
