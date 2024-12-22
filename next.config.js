@@ -5,6 +5,10 @@ const nextConfig = {
   output: 'export',
   images: {
     unoptimized: true
+  },
+  i18n: {
+    locales: ['tr', 'en'],
+    defaultLocale: 'tr'
   }
 }
 
