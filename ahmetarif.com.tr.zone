@@ -3,7 +3,7 @@ $TTL 60
 
 ; SOA Record
 @       IN      SOA     ns1.vercel-dns.com. hostmaster.vercel.com. (
-                        2024010201  ; Serial
+                        2024010301  ; Serial
                         7200        ; Refresh
                         3600        ; Retry
                         1209600     ; Expire
@@ -14,14 +14,9 @@ $TTL 60
 @       IN      NS      ns1.vercel-dns.com.
 @       IN      NS      ns2.vercel-dns.com.
 
-; A Records for Root Domain
+; A Record for Root Domain
 @       IN      A       76.76.21.21
 
-; CNAME Records for Wildcard Subdomains
-*       IN      CNAME   cname.vercel-dns.com.
-
-; CAA Records for SSL
-@       IN      CAA     0 issue "letsencrypt.org"
-
-; Additional Records for www subdomain
+; CNAME Records
 www     IN      CNAME   cname.vercel-dns.com.
+*       IN      CNAME   cname.vercel-dns.com.
